@@ -22,9 +22,7 @@
     src: url('./assets/fonts/azonix.woff') format('woff');
   }
 
-  * {
-    font-family: azonix, sans-serif;
-  }
+  font-family: Azonix Regular, sans-serif;
 
   background-image: url('./assets/img/background.jpg');
   background-repeat: repeat;
