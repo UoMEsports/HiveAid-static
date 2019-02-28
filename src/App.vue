@@ -6,20 +6,29 @@
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  @import './assets/scss/global.scss';
+
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  @font-face {
+    font-family: 'Azonix Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/azonix.woff') format('woff');
+  }
+
+  * {
+    font-family: azonix, sans-serif;
+  }
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>

@@ -33,12 +33,12 @@ export default {
     }
   },
 
-  mounted() {
+  mounted () {
     this.$options.countdownInterval = setInterval(() => {
       this.now = Math.trunc((new Date()).getTime() / 1000)
-    }, 999);
+    }, 999)
   },
-  
+
   computed: {
     seconds () {
       return (this.timestamp - this.now) % 60
