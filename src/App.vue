@@ -26,6 +26,9 @@
     font-family: azonix, sans-serif;
   }
 
+  background-image: url('./assets/img/background.jpg');
+  background-repeat: repeat;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
