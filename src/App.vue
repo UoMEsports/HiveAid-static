@@ -15,13 +15,6 @@
   height: 100%;
   width: 100%;
 
-  @font-face {
-    font-family: 'Azonix Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./assets/fonts/azonix.woff') format('woff');
-  }
-
   font-family: Azonix Regular, sans-serif;
 
   background-image: url('./assets/img/background.jpg');
