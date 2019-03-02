@@ -9,10 +9,7 @@
   @import './assets/scss/global.scss';
 
   margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   max-width: 100%;
 
