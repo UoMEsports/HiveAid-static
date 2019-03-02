@@ -82,6 +82,7 @@ export default {
   display: flex;
   margin: auto;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .block {

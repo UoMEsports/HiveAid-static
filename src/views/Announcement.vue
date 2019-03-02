@@ -2,7 +2,9 @@
   <div class="announcement">
     <img class="banner" src="../assets/img/banner.png"/>
     <Countdown date="March 30, 2019 10:00"/>
-    <div id="twitch-embed"></div>
+    <div class="twitch-wrapper">
+      <div id="twitch-embed"></div>
+    </div>
   </div>
 </template>
 
@@ -17,10 +19,11 @@ export default {
   mounted () {
     /* eslint-disable */
     new Twitch.Embed("twitch-embed", {
-      width: 760,
-      height: 428,
+      width: '100%',
+      height: '100%',
       layout: "video",
-      channel: "uomesports"
+      channel: "uomesports",
+      frameBorder: 0
     });
     /* eslint-enable */
   }
@@ -29,8 +32,24 @@ export default {
 
 <style lang="scss" scoped>
 .announcement {
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
+}
+.twitch-wrapper {
+  max-width: 800px;
+  margin: auto;
+  
+  #twitch-embed {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
 }
 .banner {
   width: 90%;
