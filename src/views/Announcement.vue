@@ -38,17 +38,11 @@ export default {
 .twitch-wrapper {
   max-width: 800px;
   margin: auto;
-  
+
   #twitch-embed {
     position: relative;
     max-width: 100%;
     padding-bottom: 56.25%;
-  
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
   }
 }
 .banner {
