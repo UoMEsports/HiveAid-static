@@ -16,6 +16,11 @@
       </div>
     </div>
 
+    <div class="charity-container">
+      <h3>Raising for</h3>
+      <img src="../assets/img/special-effect.png" class="charity-logo"/>
+    </div>
+
     <div class="twitch-wrapper">
       <div id="twitch-embed"></div>
     </div>
@@ -102,6 +107,16 @@ export default {
       height: 50px;
       border-left: 1px solid white;
     }
+  }
+}
+
+.charity-container {
+  color: white;
+  
+  .charity-logo {
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-top: -15px;
   }
 }
 
