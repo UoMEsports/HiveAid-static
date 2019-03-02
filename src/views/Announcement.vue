@@ -6,7 +6,7 @@
 
     <div class="highlight-container">
       <div class="highlight left">
-        <h1>30th-31st March</h1>
+        <h1>30<sup>th</sup> - 31<sup>st</sup> March</h1>
       </div>
       <div class="divider-container">
         <div class="divider"></div>
@@ -32,6 +32,7 @@
         </div>
         <p>HiveAid is a 24 hour livestream hosted by the University of Manchester Esports Society, raising money for SpecialEffect.</p>
         <p>Streamed in two segments across one weekend with a variety of different games on show, there'll be something for everyone.</p>
+        <p>The main attration will be several "all-star" events, where we take the best players from the uni esports scene, mix them up, and make them fight to the death... in a video game.</p>
         <p>PLUS, with the added excitement of the unique donation goals and incentives, you can be involved with shaping the outcome of the matches, and competitions going on throughtout the event.</p>
       </div>
       <div class="info">
@@ -90,6 +91,9 @@ export default {
   font-size: 15pt;
 
   .highlight {
+    sup {
+      font-size: 20px;
+    }
     margin: 0 15px;
     &.left {
       text-align: right;
@@ -112,7 +116,7 @@ export default {
 
 .charity-container {
   color: white;
-  
+
   .charity-logo {
     max-width: 100%;
     margin-bottom: 15px;
