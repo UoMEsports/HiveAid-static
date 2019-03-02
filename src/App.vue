@@ -17,7 +17,7 @@
 
   font-family: Azonix Regular, sans-serif;
 
-  background-image: url('./assets/img/background.jpg');
+  background-image: url('./assets/img/background-tile.png');
   background-repeat: repeat;
 
   -webkit-font-smoothing: antialiased;
