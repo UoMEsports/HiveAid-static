@@ -1,7 +1,21 @@
 <template>
   <div class="announcement">
     <img class="banner" src="../assets/img/banner.png"/>
+
     <Countdown date="March 30, 2019 10:00"/>
+
+    <div class="highlight-container">
+      <div class="highlight left">
+        <h1>30th-31st March</h1>
+      </div>
+      <div class="divider-container">
+        <div class="divider"></div>
+      </div>
+      <div class="highlight right">
+        <h1>24 Hours</h1>
+      </div>
+    </div>
+
     <div class="twitch-wrapper">
       <div id="twitch-embed"></div>
     </div>
@@ -54,6 +68,43 @@ export default {
   max-width: 1000px;
   margin: auto;
 }
+
+.banner {
+  width: 90%;
+  margin-top: 50px;
+}
+
+.highlight-container {
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  font-size: 15pt;
+
+  .highlight {
+    margin: 0 15px;
+    &.left {
+      text-align: right;
+    }
+    &.right {
+      text-align: left;
+    }
+  }
+
+  .divider-container {
+    height: 80px;
+
+    .divider {
+      margin-top: 13px;
+      height: 50px;
+      border-left: 1px solid white;
+    }
+  }
+}
+
 .twitch-wrapper {
   max-width: 800px;
   margin: auto;
@@ -64,10 +115,7 @@ export default {
     padding-bottom: 56.25%;
   }
 }
-.banner {
-  width: 90%;
-  margin-top: 50px;
-}
+
 .info-wrapper {
   display: flex;
   max-width: 100%;
@@ -98,4 +146,14 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: 745px) {
+  .divider-container {
+    display: none !important;
+  }
+  .left, .right {
+    text-align: center !important;
+  }
+}
+
 </style>
