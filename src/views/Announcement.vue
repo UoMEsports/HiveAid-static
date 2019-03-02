@@ -44,6 +44,16 @@
         <h4><a href="https://specialeffect.org.uk" target="_blank">Find out more about SpecialEffect</a></h4>
       </div>
     </div>
+    <div class="footer-wrapper">
+      <div class="footer">
+        <a href="mailto:info@uomesports.co.uk">
+          <img class="footer-img" src="../assets/img/button.png">
+        </a>
+        <a class="footer-link" href="mailto:info@uomesports.co.uk">
+          <h3>CONTACT US</h3>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -152,9 +162,6 @@ export default {
       align-items: center;
       justify-content: center;
       height: 4em;
-
-      h1, h2, h3, h4, h5 {
-      }
     }
 
     p {
@@ -162,6 +169,37 @@ export default {
       font-family: serenity, sans-serif;
       font-weight: 300;
       font-style: normal;
+    }
+  }
+}
+
+.footer-wrapper {
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 50px;
+
+  .footer {
+    color: black;
+    position: relative;
+    max-width: 100%;
+
+    .footer-img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .footer-link {
+      color: black;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+      h3 {
+        color: black;
+        font-size: 30px;
+      }
     }
   }
 }
