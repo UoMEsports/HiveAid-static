@@ -16,6 +16,17 @@
       </div>
     </div>
 
+    <div class="button-wrapper donate">
+      <div class="button">
+        <a href="https://honeypot.uomesports.co.uk">
+          <img class="button-img" src="../assets/img/button.png">
+        </a>
+        <a class="button-link" href="https://honeypot.uomesports.co.uk">
+          <h3>DONATE NOW</h3>
+        </a>
+      </div>
+    </div>
+
     <div class="charity-container">
       <h3>Raising for</h3>
       <img src="../assets/img/special-effect.png" class="charity-logo"/>
@@ -44,12 +55,12 @@
         <h4><a href="https://specialeffect.org.uk" target="_blank">Find out more about SpecialEffect</a></h4>
       </div>
     </div>
-    <div class="footer-wrapper">
-      <div class="footer">
+    <div class="button-wrapper footer">
+      <div class="button">
         <a href="mailto:info@uomesports.co.uk">
-          <img class="footer-img" src="../assets/img/button.png">
+          <img class="button-img" src="../assets/img/button.png">
         </a>
-        <a class="footer-link" href="mailto:info@uomesports.co.uk">
+        <a class="button-link" href="mailto:info@uomesports.co.uk">
           <h3>CONTACT US</h3>
         </a>
       </div>
@@ -173,22 +184,26 @@ export default {
   }
 }
 
-.footer-wrapper {
+.button-wrapper {
   max-width: 300px;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 
-  .footer {
+  &.footer {
+    padding-bottom: 50px;
+  }
+
+  .button {
     color: black;
     position: relative;
     max-width: 100%;
 
-    .footer-img {
+    .button-img {
       height: 100%;
       width: 100%;
     }
 
-    .footer-link {
+    .button-link {
       color: black;
       position: absolute;
       left: 50%;
