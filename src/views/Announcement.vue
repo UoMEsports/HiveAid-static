@@ -12,7 +12,7 @@
         <div class="divider"></div>
       </div>
       <div class="highlight right">
-        <h1>24 Hours</h1>
+        <h1>2 Days</h1>
       </div>
     </div>
 
@@ -41,7 +41,7 @@
         <div class="header">
           <h1>What is HiveAid?</h1>
         </div>
-        <p>HiveAid is a 24 hour livestream hosted by the University of Manchester Esports Society, raising money for SpecialEffect.</p>
+        <p>HiveAid is a charity livestream hosted by the University of Manchester Esports Society, raising money for SpecialEffect.</p>
         <p>Streamed in two segments across one weekend with a variety of different games on show, there'll be something for everyone.</p>
         <p>The main attraction will be several "all-star" events, where we take the best players from the uni esports scene, mix them up, and make them battle it out to find the best of the best.</p>
         <p>PLUS, with the added excitement of the unique donation goals and incentives, you can be involved with shaping the outcome of the matches, and competitions going on throughtout the event.</p>
